@@ -1,0 +1,5 @@
+change a:b:c:d to a&b&c&d
+
+a="a:b:c:d"
+b=a.replace(":","&")
+print(b)
