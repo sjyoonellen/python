@@ -1,0 +1,9 @@
+#calculate the sum of grades that exceed 50
+
+A=[20,55,67,82,45]
+result=0
+while A:
+    mark=A.pop()
+    if mark >=50:
+        result +=mark
+print(result)
