@@ -2,9 +2,6 @@ If duplicate, true else false
 
 class Solution(object):
     def containsDuplicate(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: bool
-        """
-        return True if len(set(nums)) < len(nums) else False
+       
+       return True if len(set(nums)) < len(nums) else False
 print(Solution().containsDuplicate([1,2,3]))
